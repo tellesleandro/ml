@@ -8,7 +8,7 @@ module LinearRegression
       @training_set = training_set
     end
 
-    # Calculate the parameters (teta_0 and teta_1) that fits better the
+    # Calculate the parameters (teta_0 and teta_1) that fit better the
     # training set.
     def parameters(initial_teta_0, initial_teta_1, learning_rate,
                         delta_stop)
